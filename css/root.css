@@ -1,0 +1,28 @@
+:root {
+    /* Primary Color */
+    --primary-color: #1663F9;
+  
+    /* Dark Color */
+    --dark-color: #1F2326;
+  
+    /* Light Color */
+    --light-color: #F0F0F0;
+  
+    /* Secondary Colors */
+    --secondary-color-pink: #F961D8;
+    --secondary-color-orange: #F5953A;
+    --secondary-color-blue: #3DB0E5;
+    --secondary-color-light-pink: #FF7999;
+  
+    /* Error Color */
+    --error-color: #FC5230;
+
+    /* Font sora */
+    --sora-font: "Sora", serif;
+
+    /* Poppins font  */
+    --poppins-font: "Poppins", serif;
+
+
+  }
+  
