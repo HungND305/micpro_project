@@ -1,0 +1,404 @@
+@media screen and (max-width: 376px) {
+    .container {
+        width: 375px;
+    }
+
+    .nav-bars {
+        padding: 0 24px;
+        margin-top: 23px;
+    }
+
+    .logo h5 {
+        font-size: 17.78px
+    }
+
+    .logo img {
+        font-size: 32px
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
+
+    .start-btn {
+        display: none;
+    }
+
+    .header-list {
+        display: block;
+    }
+
+    .title-build {
+        width: 283px;
+        height: auto;
+    }
+
+    .title-build h1 {
+        width: 283px;
+        font-size: 34px;
+        line-height: 42px;
+        margin-top: 30px;
+    }
+
+    .des-build {
+        width: 275px;
+    }
+
+    .des-build p {
+        width: 275px;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .cta-buttons {
+        margin-top: 70px;
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    
+
+    .bg-change-color-fist {
+        width: 492px;
+        height: 492px;
+        top: 436px;
+        left: -412px;
+        border-radius: 192px;
+        filter: blur(53.4013px);
+    }
+
+    .bg-change-color-second {
+        width: 271px;
+        height: 152px;
+        top: 575.48px;
+        left: -29.86px;
+        border-radius: 106px;
+        filter: blur(53.4013px);
+    }
+
+    .bg-change-color-third {
+        width: 130px;
+        height: 248px;
+        top: 498px;
+        left: 240px;
+        border-radius: 94.57px;
+        filter: blur(40.4013px);
+    }
+
+    .bg-change-color-four {
+        width: 226px;
+        height: 127px;
+        top: 588px;
+        left: 133.27px;
+        border-radius: 88.11px;
+        filter: blur(53.4013px);
+        
+        
+    }
+
+    .box-service {
+        width: 175px;
+    }
+
+    .service-cards {
+        width: 327px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .brand-service-content {
+        width: 305px;
+        font-size: 28px;
+    }
+
+    .tw-project-app {
+        width: 305px;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .tw-project-app-img {
+        width: 327px;
+        height: 273px;
+    }
+
+    .tw-project-app-img img {
+        width: 327px;
+        height: 273px;
+    }
+
+    .tw-title {
+        width: 305px;
+    }
+
+    .tw-project-app.tw-reverse {
+        flex-direction: column;
+    }
+    
+    .tw-app-box {
+        width: 327px;
+        height: auto;
+        margin-bottom: 36px;
+    }
+
+    .tw-project-app-des {
+        width: 327px;
+    }
+
+    .tw-project-app-des p {
+        width: 327px;
+        font-size: 14px;
+    }
+
+    .tw-title h2 {
+        font-size: 28px;
+        height: auto;
+    }
+    .tw-project-app-title{
+        width: 200px;
+        height: auto;
+    }
+    .tw-project-app-title h3 {
+        width: 200px;
+        font-size: 20px;
+        height: auto;
+    }
+    
+    .tw-project-app-des p {
+        font-weight: 400;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .tw-section {
+        width: 327px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+
+    .box-service {
+        width: 375px;
+        height: auto;
+        margin-top: 40px;
+    }
+    .brand-service {
+        margin-top: 44px;
+    }
+    .brand-service-content {
+        width: 327px;
+        height: auto;
+
+    }
+    .brand-service-content h2{
+        font-size: 28px;
+    }
+    .brand-service-logo {
+        max-width: 100%;
+        gap: 44px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .brand-service {
+        width: 375px;
+    }
+    
+
+    .explore-section {
+        width: 327px;
+        height: auto;
+        padding: 30px 40px;
+    }
+
+
+    .explore-list {
+        height: auto;
+    }
+
+    .explore-title h2 {
+        text-align: center;
+        font-size: 28px;
+        width: 252px;
+    }
+
+    .explore-title span {
+        font-size: 28px;
+        width: 252px;
+    }
+
+    .explore-title div {
+        width: 327px;
+        height: 144px;
+        font-size: 16px;
+    }
+
+    .budget-section {
+        width: 375px;
+        height: auto;
+        padding: 40px 24px;
+    }
+
+    .budget-switch-btn {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .budget-title {
+        width: 327px;
+        height: auto;
+    }
+
+    .budget-price-list {
+        flex-direction: column;
+    }
+
+    .budget-title h2 {
+        width: 327px;
+        height: auto;
+        font-size: 28px;
+        margin: 0 auto;
+    }
+
+    .budget-price-list {
+        width: 327px;
+        height: auto;
+        gap: 20px;
+    }
+
+    .budget-price-list-item.item-1 {
+        width: 327px;
+        height: auto;
+    }
+
+    .budget-price-list-item.item-2 {
+        width: 327px;
+        height: auto;
+    }
+
+    .budget-price-list-item.item-1 .features-list {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-info {
+        width: 327px;
+        height: auto;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .quote-icon {
+        display: none;
+    }
+
+    .divider {
+        width: 237px;
+        height: 1px;
+    }
+
+    .testimonial-content {
+        text-align: center;
+        width: 254px;
+        height: auto;
+    }
+
+    .testimonial-box {
+        height: auto;
+        width: 375px;
+    }
+
+    .testimonial-author {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .creative-team-title {
+        gap: 26px;
+        width: 267px;
+    }
+
+    .creative-team-title h2 {
+        font-size: 28px;
+    }
+
+    .creative-team-title div {
+        width: 327px;
+        font-size: 18px;
+        margin-bottom: 46px;
+    }
+
+    .design-blog-item {
+        width: 327px;
+        height: auto;
+    }
+
+    .design-blog-new {
+        flex-direction: column;
+        width: 327px;
+        margin: 0 auto;
+    }
+
+    .design-blog-box {
+        width: 375px;
+        height: auto;
+    }
+
+    .design-blog-title h2 {
+        font-size: 28px;
+    }
+
+    .hero-section {
+        width: 327px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .design-blog-box {
+        margin: 0;
+    }
+
+    .hero-section h3 {
+        font-size: 28px;
+        width: 279px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+        width: 281px;
+    }
+
+    .hero-section-btn h4 {
+        width: 127px;
+        font-size: 18px;
+    }
+
+    .footer-links {
+        gap: 30px;
+        width: 327px;
+        height: auto;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .footer-logo h5 {
+        width: 327px;
+        margin-bottom: 30px;
+    }
+
+    .underline-footer {
+        display: none;
+    }
+
+    .footer-bottom {
+        width: 375px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .end {
+        width: 225px;
+    }
+}

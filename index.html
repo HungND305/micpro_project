@@ -7,16 +7,18 @@
     <title>Agency</title>
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/agency.css">
+    <link rel="stylesheet" href="/reponsive-css/agency.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_right_alt" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=trending_flat" />
+
 </head>
 
 <body>
@@ -39,6 +41,9 @@
             <div class="start-btn">
                 <p>Start a Project</p>
             </div>
+            <div class="header-list" hidden>
+                <img src="/img/icons/list.png" alt="">
+            </div>
         </header>
         <div class="box-body">
             <div class="title-build">
@@ -52,10 +57,10 @@
                 <button class="cta-buttons-started">
                     <p>Get Started</p>
                     <span class="material-symbols-outlined">
-                        arrow_right_alt
+                        trending_flat
                     </span>
                 </button>
-                <button class="cta-buttons-pricing">Pricing</button>
+                <div class="cta-buttons-pricing">Pricing</div>
             </div>
             <div class="bg-change-color-fist"></div>
             <div class="bg-change-color-second"></div>
@@ -68,7 +73,7 @@
                             <img src="img/icons/apple.png" alt="">
                         </div>
                         <div class="service-cards-content">
-                            <h3>Discover, Explore the Product</h3>
+                            <h3>Discover, budget the Product</h3>
                         </div>
                     </div>
                     <div class="service-card">
@@ -76,7 +81,7 @@
                             <img src="img/icons/data.png" alt="">
                         </div>
                         <div class="service-cards-content">
-                            <h3>Discover, Explore the Product</h3>
+                            <h3>Discover, budget the Product</h3>
                         </div>
                     </div>
                     <div class="service-card" style="border: none; box-shadow: 0px 20px 80px -16px #2323231A">
@@ -84,7 +89,7 @@
                             <img src="img/icons/box.png" alt="">
                         </div>
                         <div class="service-cards-content">
-                            <h3>Discover, Explore the Product</h3>
+                            <h3>Discover, budget the Product</h3>
                         </div>
                     </div>
                     <div class="service-card">
@@ -92,7 +97,7 @@
                             <img src="img/icons/speaker.png" alt="">
                         </div>
                         <div class="service-cards-content">
-                            <h3>Discover, Explore the Product</h3>
+                            <h3>Discover, budget the Product</h3>
                         </div>
                     </div>
                 </div>
@@ -109,28 +114,481 @@
                     </div>
                 </div>
             </div>
-            <div class="tw-section">
+            <div class="tw-section tw-section-v">
                 <div class="tw-title">
                     <h2>Our Team’s <span>Work</span></h2>
                 </div>
-                <div class="tw-weather-app">
+                <div class="tw-project-app">
                     <div class="tw-app-box">
-                        <div class="tw-weather-app-cate">
+                        <div class="tw-project-app-cate">
                             <p>Mobile app, Weather,</p>
                             <p>Software</p>
                         </div>
-                        <div class="tw-weather-app-title"><h3>Weather App UI Kit - WETHY </h3></div>
-                        <div class="tw-weather-app-des"><p>Hello Designers! This is the video calling website landing page design concept. Video
-                            calling software is very popular nowadays.</p></div>
-                        <div class="tw-weather-app-link"><h6 >VIEW PORTFOLIO</h6></div>
-                        <div class="tw-weather-app-underline"></div>
+                        <div class="tw-project-app-title">
+                            <h3>Weather App UI Kit - WETHY </h3>
+                        </div>
+                        <div class="tw-project-app-des">
+                            <p>Hello Designers! This is the video calling website landing page design concept. Video
+                                calling software is very popular nowadays.</p>
+                        </div>
+                        <div class="tw-project-app-link">
+                            <h6>VIEW PORTFOLIO</h6>
+                        </div>
+                        <div class="tw-project-app-underline"></div>
                     </div>
-                    <div class="tw-weather-app-img">
+                    <div class="tw-project-app-img">
                         <img src="img/page/wether-app.png" alt="">
                     </div>
                 </div>
+                <div class="tw-project-app tw-reverse">
+                    <div class="tw-app-box">
+                        <div class="tw-project-app-cate">
+                            <p>Mobile app, Weather,</p>
+                            <p>Software</p>
+                        </div>
+                        <div class="tw-project-app-title">
+                            <h3>Video Calling Website - Jabber </h3>
+                        </div>
+                        <div class="tw-project-app-des">
+                            <p>WEATHY is a modern and clean mobile app project based on the weather app. The UI Kit
+                                gives you the necessary screens for creating stunning iOS screens and applying them to
+                                any weather app.</p>
+                        </div>
+                        <div class="tw-project-app-link">
+                            <h6>VIEW PORTFOLIO</h6>
+                        </div>
+                        <div class="tw-project-app-underline"></div>
+                    </div>
+                    <div class="tw-project-app-img">
+                        <img src="img/page/video-calling-app.png" alt="">
+                    </div>
+                </div>
+                <div class="tw-project-app">
+                    <div class="tw-app-box">
+                        <div class="tw-project-app-cate">
+                            <p>Mobile app, Weather,</p>
+                            <p>Software</p>
+                        </div>
+                        <div class="tw-project-app-title">
+                            <h3>Car Dashboard UI Kit Design</h3>
+                        </div>
+                        <div class="tw-project-app-des">
+                            <p>Motiv. is a Free Car Dashboard UI Kit Design of 20+ Free pixel-perfect screens and 60+
+                                Components easy to use in Figma.</p>
+                        </div>
+                        <div class="tw-project-app-link">
+                            <h6>VIEW PORTFOLIO</h6>
+                        </div>
+                        <div class="tw-project-app-underline"></div>
+                    </div>
+                    <div class="tw-project-app-img">
+                        <img src="img/page/car-dashboard-app.png" alt="">
+                    </div>
+                </div>
+                <div class="tw-project-app tw-reverse">
+                    <div class="tw-app-box">
+                        <div class="tw-project-app-cate">
+                            <p>Mobile app, Weather,</p>
+                            <p>Software</p>
+                        </div>
+                        <div class="tw-project-app-title">
+                            <h3>Video Editing Website - Revise </h3>
+                        </div>
+                        <div class="tw-project-app-des">
+                            <p>Hello Peoples! This is the Video Editing Website landing page design concept. Video
+                                editing is an essential part of a tech user.</p>
+                        </div>
+                        <div class="tw-project-app-link">
+                            <h6>VIEW PORTFOLIO</h6>
+                        </div>
+                        <div class="tw-project-app-underline"></div>
+                    </div>
+                    <div class="tw-project-app-img">
+                        <img src="img/page/video-edit-app.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="explore-section">
+                <div class="explore-title">
+                    <h2>Explore our core<span> Expertise</span></h2>
+                    <div>We produce beautiful and engaging websites. Our team is mostly experienced in the design of
+                        stunning interfaces, e-commerce and marketing website development, ready to work with you on
+                        your project!</div>
+                </div>
+                <div class="explore-box">
+                    <div class="explore-list item-1">
+                        <div class="explore-list-title">
+                            <h5>UI/UX Design</h5>
+                        </div>
+                        <hr>
+                        <ul class="explore-list-standar">
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>High-quality motion design</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Thoughtful user experience design</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Unique user interface design for websites and apps</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Design concepts & strategies for MVPs</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="explore-list item-2">
+                        <div class="explore-list-title">
+                            <h5>Webflow Design</h5>
+                        </div>
+                        <hr>
+                        <ul class="explore-list-standar">
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>High-quality motion design</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Thoughtful user experience design</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Unique user interface design for websites and apps</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Design concepts & strategies for MVPs</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="explore-list item-3">
+                        <div class="explore-list-title">
+                            <h5>Webflow Developer</h5>
+                        </div>
+                        <hr>
+                        <ul class="explore-list-standar">
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Full-cycle development of powerful corporate websites and one-pagers</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Webflow integrations with third-party services and apps</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Migration of your designs or even ready website to Webflow CMS</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="explore-list item-4">
+                        <div class="explore-list-title">
+                            <h5>Shopify Developer</h5>
+                        </div>
+                        <hr>
+                        <ul class="explore-list-standar">
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Cost-effective e-commerce development</div>
+                            </li>
+                            <li><span><img src="/img/icons/check.png" alt=""></span>
+                                <div>Reinvention of your online store with a strong tech stack</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="budget-section">
+                <div class="budget-title">
+                    <h2>Find the plan that fits your<span> budget</span></h2>
+                </div>
+                <div class="budget-switch-btn">
+                    <button class="btn-month">
+                        <p>Monthly</p>
+                    </button>
+                    <button class="btn-year">
+                        <p>Yearly</p>
+                    </button>
+                </div>
+                <div class="budget-price-list">
+                    <div class="budget-price-list-item item-1">
+                        <div class="budget-price-list-top">
+                            <div class="price-title">
+                                <p>Pro</p>
+                                <div>Most popular</div>
+                            </div>
+                            <div class="price-value">
+                                <h2>$35/<span>Per Month</span></h2>
+                            </div>
+                        </div>
+                        <div class="budget-price-list-bottom">
+                            <ul class="features-list">
+                                <li><span class="check-icon"><img src="/img/icons/check.png" alt=""></span> UI/UX
+                                    Designer</li>
+                                <li><span class="check-icon"><img src="/img/icons/check.png" alt=""></span> Dedicated
+                                    Developer</li>
+                                <li><span class="check-icon"><img src="/img/icons/check.png" alt=""></span> QA
+                                    technician</li>
+                                <li><span class="check-icon"><img src="/img/icons/check.png" alt=""></span> Project
+                                    Manager</li>
+                                <li><span class="check-icon"><img src="/img/icons/check.png" alt=""></span> On time
+                                    Support</li>
+                            </ul>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="budget-price-list-item item-2">
+                        <div class="budget-price-list-top">
+                            <div class="price-title">
+                                <p>Pro</p>
+                                <div>Free</div>
+                            </div>
+                            <div class="price-value">
+                                <h2>$0</h2>
+                            </div>
+                        </div>
+                        <div class="budget-price-list-bottom">
+                            <ul class="features-list">
+                                <li><span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-check">
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg></span> UI/UX Designer</li>
+                                <li><span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-check">
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg></span> Dedicated Developer</li>
+                                <li><span class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-check">
+                                            <path d="M20 6 9 17l-5-5" />
+                                        </svg></span> QA technician</li>
+                            </ul>
+                            <button class="buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="testimonial-info">
+                    <div class="quote-icon">
+                        <img src="/img/icons/comma-above.png" alt="Quote">
+                    </div>
+                    <div class="testimonial-content">
+                        Internal stakeholders were happy with the final product. The team was able to communicate their
+                        progress clearly and concisely. They took the initiative and executed the project without much
+                        supervision Internal stakeholders were happy with the final product. The team was able to
+                        communicate their progress clearly and concisely. They took the initiative and executed the
+                        project without much supervision
+                    </div>
+                    <div class="divider"></div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mitchell Marsh">
+                        <h5>Mitchell Marsh</h5>
+                        <p>UI/UX Designer</p>
+                    </div>
+                </div>
+                <div class="testimonial-pagination">
+                    <div class="testimonial-pagination-item"></div>
+                    <div class="testimonial-pagination-item"></div>
+                    <div class="testimonial-pagination-item checked"></div>
+                    <div class="testimonial-pagination-item"></div>
+                    <div class="testimonial-pagination-item"></div>
+                </div>
+            </div>
+            <div class="creative-team-box">
+                <div class="creative-team-title">
+                    <h2>Our Creative <span>Team</span></h2>
+                    <div>Flowgiri is a creative and modern theme for startups, freelancers and creatives.</div>
+                </div>
+                <div class="creative-team-member">
+                    <div class="overlay-hover">
+                        <img src="img/page/membet-1.png" alt="">
+                        <div class="overlay">
+                            <h3>STEVE THOMAS</h3>
+                            <p>WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                    <div class="overlay-hover">
+                        <img src="img/page/membet-2.png" alt="">
+                        <div class="overlay">
+                            <h3>STEVE THOMAS</h3>
+                            <p>WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                    <div class="overlay-hover">
+                        <img src="img/page/membet-3.png" alt="">
+                        <div class="overlay">
+                            <h3>STEVE THOMAS</h3>
+                            <p>WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                    <div class="overlay-hover">
+                        <img src="img/page/membet-4.png" alt="">
+                        <div class="overlay">
+                            <h3>STEVE THOMAS</h3>
+                            <p>WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                    <div class="overlay-hover">
+                        <img src="img/page/membet-5.png" alt="">
+                        <div class="overlay">
+                            <h3>STEVE THOMAS</h3>
+                            <p>WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                    <div class="overlay-hover">
+                        <img src="img/page/membet-6.png" alt="">
+                        <div class="overlay">
+                            <h3>STEVE THOMAS</h3>
+                            <p>WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design-blog-box">
+                <div class="design-blog-title">
+                    <h2>OUR Design<span>BLOG</span></h2>
+                </div>
+                <div class="design-blog-new">
+                    <div class="design-blog-item">
+                        <img src="/img/page/design-block-1.png" alt="">
+                        <div class="design-blog-date">
+                            <p>Design Blog</p>
+                            <span>Jul 12, 2022</span>
+                        </div>
+                        <h5>15 Important Usability Principles for
+                            User Interface Design</h5>
+                    </div>
+                    <div class="design-blog-item">
+                        <img src="/img/page/design-block-2.png" alt="">
+                        <div class="design-blog-date">
+                            <p>Design Blog</p>
+                            <span>Jul 12, 2022</span>
+                        </div>
+                        <h5>15 Important Usability Principles for
+                            User Interface Design</h5>
+                    </div>
+                    <div class="design-blog-item">
+                        <img src="/img/page/design-block-3.png" alt="">
+                        <div class="design-blog-date">
+                            <p>Design Blog</p>
+                            <span>Jul 12, 2022</span>
+                        </div>
+                        <h5>15 Important Usability Principles for
+                            User Interface Design</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-section">
+                <h3>We'll take the time to understand your goals and then help you create a website that's exactly what
+                    you envisioned.</h3>
+                <p>We believe your project is only as good as the team that's working on it. When we work with you and
+                    your team, we know there are no shortcuts to success. Your research is done; now lets get down to
+                    business!</p>
+                <div class="hero-section-btn">
+                    <h4>Join the team</h4>
+                    <span class="material-symbols-outlined">
+                        trending_flat
+                    </span>
+                </div>
             </div>
         </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-links">
+                    <div class=" footer-column footer-logo">
+                        <h5><img src="./img/page/logo.png" alt=""></span> MicPro</h2>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Product</h3>
+                        <ul>
+                            <li><a href="#">Careere</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Insights</a></li>
+                            <li><a href="#">PCI Compliance</a></li>
+                            <li><a href="#">Integrations</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>For Developers</h3>
+                        <ul>
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">Knowledge Base</a></li>
+                            <li><a href="#">System Status</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">Press/News</a></li>
+                            <li><a href="#">Careers/Team</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                    <div class="footer-column end">
+                        <h3>Subscribe</h3>
+                        <div class="subscribe-box">
+                            <input type="email" placeholder="Email address">
+                            <button>→</button>
+                        </div>
+                        <div class="rating">
+                            <p>8/10</p>
+                            <p class="rating-overal">Overall rating</p>
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-star">
+                                    <path
+                                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <hr class="underline-footer">
+                <div class="footer-bottom">
+                    <div class="bottom-links">
+                        <a href="#">Platform</a>
+                        <a href="#">Products</a>
+                        <a href="#">Resources</a>
+                    </div>
+                    <p class="links-date">© 2021 Besnik.com | All Rights Reserved</p>
+                    <div class="social-icons">
+                        <div><img src="/img/icons/facebook.png" alt=""></div>
+                        <div><img src="/img/icons/google.png" alt=""></div>
+                        <div><img src="/img/icons/twitter.png" alt=""></div>
+                        <div><img src="/img/icons/ball.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
