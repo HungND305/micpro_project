@@ -1,17 +1,4 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0 auto;
-    font-family: var(--sora-font);
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
 
 
 .nav-bars {
