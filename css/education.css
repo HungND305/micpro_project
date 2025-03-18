@@ -173,6 +173,13 @@
     border-radius: 14px;
 }
 
+
+.choice-difference-section {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
 .choice-difference-item-text {
     width: 237px;
 }
@@ -193,12 +200,6 @@
     margin-top: 42px;
 }
 
-.choice-difference-section {
-    width: 1170px;
-    margin: 0 auto;
-    margin-top: 100px;
-
-}
 
 .choice-difference-item:nth-child(1) .choice-difference-item-img {
     background-color: var(--primary-color);
@@ -257,6 +258,15 @@
     gap: 14px;
 }
 
+.prenium-industy {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center
+}
+
 .prenium-industy-item img {
     width: 24px;
     height: 24px;
@@ -279,14 +289,7 @@
     margin-top: 40px;
 }
 
-.prenium-industy {
-    display: flex;
-    align-items: center;
-    gap: 31px;
-    margin: 0 auto;
-    margin-top: 100px;
-    justify-content: center
-}
+
 
 .Student-all-top {
     width: 558px;
